@@ -37,7 +37,7 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: beige;
+    background-color: black;
     color:black;
     height: 5vw;
     text-align: center;
@@ -77,3 +77,38 @@ footer {
 .submenus {
     margin-left: 35px;
 }
+
+.container {
+    width: vw;
+    height: 5vw;
+    align-items: center;
+}
+
+.input {
+    width: 75%;
+    height: 2vw;
+    margin-top: 30px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+
+
+.grid-container {
+    displar: grid;
+    grid-template-areas: 
+    "menu"
+    "header"
+    "main"
+    "footer";
+}    
+main {
+    display: grid;
+    grid-template-columns: auto;
+}    
+header {
+   height: 20vw;
+}
+}
+
