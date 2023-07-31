@@ -127,10 +127,11 @@ footer {
 main {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-rows:max-content;
 }    
 
 header {
+    width: 100%;
    height: 20vw;
 }
 
@@ -142,6 +143,14 @@ footer{
     height: 7vw;
     padding: 15px;
     margin-top: 25px;
+    margin left: 15px;
+}
+.pie {
+    font-size: 15px;
+}
+.img {
+    width: 80%;
+    height:70%;
 }
 }
 
