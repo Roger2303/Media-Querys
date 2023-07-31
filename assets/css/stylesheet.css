@@ -1,30 +1,29 @@
 .grid-container {
     display: grid;
     grid-template-areas: 
-    "header header header header"
+    "menu header header header"
     "menu main main main"
-    "footer footer footer footer";
+    "menu footer footer footer";
 }
 
 header {
     grid-area: header;
-    color: white;
+    color:black;
     height: 8vw;
-    background-color: blue;
+    background-color:beige;
     font-size: 50px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    text-align: start;
 }
 
 menu {
     grid-area: menu;
-    background-color: black;
+    background-color: purple;
     color: white;
     display: flex;
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -38,9 +37,10 @@ main {
 
 footer {
     grid-area: footer;
-    background-color:purple;
-    color: white;
+    background-color: beige;
+    color:black;
     height: 5vw;
+    text-align: center;
 }
 
 
@@ -60,6 +60,20 @@ footer {
     padding: 3px;
     margin: 0px;
     margin-top: 1px;
-    border-radius: 1px;
-    border-color: black;
+    
+}
+
+.pie {
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.título {
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submenus {
+    margin-left: 35px;
 }
