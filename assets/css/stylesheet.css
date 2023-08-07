@@ -50,7 +50,10 @@ footer {
     text-align: center;
 }
 
-
+button:hover {
+    background-color: black;
+    color: white;
+}
 
 .img {
     width: 10vw;
@@ -61,8 +64,8 @@ footer {
 }
 
 .img:hover {
-    width: 18vw;
-    height: 25vw;
+    width: 13vw;
+    height: 18vw;
 }
 
 .card {
@@ -87,9 +90,14 @@ footer {
 }
 
 .submenus {
-    margin-left: 35px;
+    margin-left: 20px;
     color: white;
     text-decoration-line: none;
+    transition: 1s ease;
+}
+
+.submenus:hover {
+    font-size: 25px;
 }
 
 .container {
@@ -116,6 +124,10 @@ text-decoration-line: none;
     padding: 15px;
 }
 
+.logo {
+    width: 25vw;
+}
+
 
 @media (max-width: 576px) {
 .grid-container {
@@ -125,6 +137,9 @@ text-decoration-line: none;
     "header"
     "main"
     "footer";
+}
+.logo {
+    width: 100%;
 }
 
 .zelda {
@@ -145,7 +160,7 @@ text-decoration-line: none;
 .opciones {
     display: flex;
     flex-direction: row;
-    margin-left: 0px;
+    align-items: center;
 }
 
 main {
@@ -163,10 +178,10 @@ footer{
     height: 25vw;
 }
 .redes {
-    width: 7vw;
-    height: 7vw;
+    width: 10vw;
+    height: 10vw;
     padding: 15px;
-    margin-top: 25px;
+    margin-top: 15px;
     margin left: 15px;
 }
 .pie {
@@ -190,7 +205,7 @@ footer{
 }
 
 .menu1 {
-    padding: 30px;
+    padding: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .submenu1 {
